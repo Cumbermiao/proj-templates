@@ -1,4 +1,6 @@
-
+<template>
+  <h3> page 1</h3>
+</template>
 <script>
 export default {
   name: 'Page1',
@@ -6,13 +8,6 @@ export default {
   data: function() {
     return {}
   },
-  methods: {},
-  render() {
-    return (
-      <div style='height:500px;background:#fff'>
-        <h1> page 1</h1>
-      </div>
-    )
-  }
+  methods: {}
 }
 </script>

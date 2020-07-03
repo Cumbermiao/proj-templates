@@ -1,13 +1,13 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 Vue.use(Router)
-import Page1 from '@/views/page1'
 
 const router = new Router({
-  routes:[
+  routes: [
     {
       path: '/',
-      components: Page1
+      name: 'Home',
+      component: () => import('@/views/page1/index.vue')
     }
   ]
 })

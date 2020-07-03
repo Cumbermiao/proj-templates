@@ -8,13 +8,13 @@ const state = {
 }
 
 const mutations = {
-  SET_USERNAME: (state, name) =>{
+  SET_USERNAME: (state, name) => {
     state.username = name
   }
 }
 
 const actions = {
-  setUsername({commit}, name){
+  setUsername({ commit }, name) {
     commit('SET_USERNAME', name)
   }
 }
@@ -24,3 +24,5 @@ const store = new Vuex.Store({
   actions,
   mutations
 })
+
+export default store
