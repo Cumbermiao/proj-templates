@@ -32,7 +32,6 @@ module.exports = {
     }, ]
   },
   plugins: [
-    new CleanUpStatsPlugin(),
     new webpack.DllReferencePlugin({
       context: path.resolve(__dirname),
       manifest: require('../.cache/dll/dll-manifest.json')
